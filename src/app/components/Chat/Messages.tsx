@@ -1,14 +1,17 @@
 import { Message } from "ai";
-import { useEffect, useRef } from "react";
+import {
+  // useEffect,
+  useRef
+} from "react";
 import ReactMarkdown from "react-markdown";
 
 export default function Messages({ messages }: { messages: Message[] }) {
   // Scroll to the most recent message whenever a new message is added
-  useEffect(() => {
-    if (messagesEndRef.current) {
-      messagesEndRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  }, [messages]);
+  // useEffect(() => {
+  //   if (messagesEndRef.current) {
+  //     messagesEndRef.current.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // }, [messages]);
 
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   return (
