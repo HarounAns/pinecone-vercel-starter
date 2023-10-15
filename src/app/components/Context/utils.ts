@@ -1,5 +1,5 @@
 import { IUrlEntry } from "./UrlButton";
-import { ICard } from "./Card";
+import { ICard } from "../Card";
 
 export async function crawlDocument(
   url: string,
