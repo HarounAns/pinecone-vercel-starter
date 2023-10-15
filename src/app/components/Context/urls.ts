@@ -17,8 +17,26 @@ export const urls = [{
   loading: false,
 },
 {
-  url: "https://www.aljazeera.com/news/liveblog/2023/10/14/israel-hamas-war-live-us-moves-second-aircraft-carrier-to-mediterranean",
-  title: "Israeli-Palestinian conflice",
+  url: "https://blog.govoyagin.com/halal-in-japan-kyoto-restaurants/",
+  title: "Govoyagin Blog",
+  seeded: false,
+  loading: false,
+},
+{
+  url: "https://blog.halal-navi.com/en/halal-market-in-kyoto-a-guide-for-muslim-travelers/",
+  title: "Halal Navi Blog",
+  seeded: false,
+  loading: false,
+},
+{
+  url: "https://www.tripadvisor.com/Restaurants-g298564-zfz10751-Kyoto_Kyoto_Prefecture_Kinki.html",
+  title: "Trip Advisor",
+  seeded: false,
+  loading: false,
+},
+{
+  url: "https://savorjapan.com/contents/discover-oishii-japan/enjoy-japanese-halal-food-at-muslim-friendly-restaurants-in-kyoto-and-osaka/",
+  title: "Savor Japan",
   seeded: false,
   loading: false,
 },
